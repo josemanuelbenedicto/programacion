@@ -1,0 +1,182 @@
+<!DOCTYPE json>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listado de Productos</title>
+{
+"Producto": {
+        "Campos": {
+            "CodigoProducto": {
+                "Tipo": "varchar(15) NOT NULL"
+            },
+            "Nombre": {
+                "Tipo": "varchar(70) NOT NULL"
+            },
+            "Gama": {
+                "Tipo": "varchar(50) NOT NULL"
+            },
+            "Proveedor": {
+                "Tipo": "varchar(50) DEFAULT NULL"
+            },
+            "Descripción": {
+                "Tipo": "text"
+            },
+            "CantidadEnStock": {
+                "Tipo": "smallint (6) NOT NULL"
+            },
+            "PrecioVenta": {
+                "Tipo": "decimal (15,2) NOT NULL"
+            },
+            "PrecioProveedor": {
+                "Tipo": "decimal (15,2) DEFAULT NULL"
+            },
+            "Imagen": {
+                "Tipo": "VARCHAR (20) NOT NULL"    
+            }
+        }
+    }
+}
+
+{
+    "User": {
+        "Campos": {
+            "id": {
+                "Tipo": "int (11) NOT NULL"
+            },
+            "role": {
+                "Tipo": "varchar(20) DEFAULT NULL"
+            },
+            "name": {
+                "Tipo": "varchar(255) DEFAULT NULL"
+            },
+            "surname": {
+                "Tipo": "varchar(255) DEFAULT NULL"
+            },
+            "email": {
+                "Tipo": "varchar(255) DEFAULT NULL"
+            },
+            "passwd": {
+                "Tipo": "varchar(255) DEFAULT NULL"
+            },
+            "image": {
+                "Tipo": "varchar(255) DEFAULT NULL"
+            },
+            "created_at": {
+                "Tipo": "Datetime DEFAULT NULL"
+            }
+        }
+    }
+}
+
+<body>
+<h2>Ajedrea</h2>
+<div class="card-body">
+<h1 class="card-title">Producto 1</h1>
+<p class="card-text"><strong>Código:</strong></p>
+<p class="card-text"><strong>Nombre:</strong></p>
+<p class="card-text"><strong>Stock:</strong></p>
+<p class="card-text"><strong>PVP:</strong></p>
+<p class="card-text"><strong>Proveedor:</strong></p>
+<p class="card-text"><strong>Gama:</strong></p>
+<img src="ajedrea.webp"
+
+<h2>Amapola</h2>
+<div class="card-body">
+<h1 class="card-title">Producto 1</h1>
+<p class="card-text"><strong>Código:</strong></p>
+<p class="card-text"><strong>Nombre:</strong></p>
+<p class="card-text"><strong>Stock:</strong></p>
+<p class="card-text"><strong>PVP:</strong></p>
+<p class="card-text"><strong>Proveedor:</strong></p>
+<p class="card-text"><strong>Gama:</strong></p>
+<img src="amapola.jpg"
+
+<h2>Azadon</h2>
+<div class="card-body">
+<h1 class="card-title">Producto 1</h1>
+<p class="card-text"><strong>Código:</strong></p>
+<p class="card-text"><strong>Nombre:</strong></p>
+<p class="card-text"><strong>Stock:</strong></p>
+<p class="card-text"><strong>PVP:</strong></p>
+<p class="card-text"><strong>Proveedor:</strong></p>
+<p class="card-text"><strong>Gama:</strong></p>
+<img src="azadon.jpg"
+
+<h2>Lavandula</h2>
+<div class="card-body">
+<h1 class="card-title">Producto 1</h1>
+<p class="card-text"><strong>Código:</strong></p>
+<p class="card-text"><strong>Nombre:</strong></p>
+<p class="card-text"><strong>Stock:</strong></p>
+<p class="card-text"><strong>PVP:</strong></p>
+<p class="card-text"><strong>Proveedor:</strong></p>
+<p class="card-text"><strong>Gama:</strong></p>
+<img src="lavandula.jpg"
+
+<h2>Melisa</h2>
+<div class="card-body">
+<h1 class="card-title">Producto 1</h1>
+<p class="card-text"><strong>Código:</strong></p>
+<p class="card-text"><strong>Nombre:</strong></p>
+<p class="card-text"><strong>Stock:</strong></p>
+<p class="card-text"><strong>PVP:</strong></p>
+<p class="card-text"><strong>Proveedor:</strong></p>
+<p class="card-text"><strong>Gama:</strong></p>
+<img src="melisa.jpg"
+
+<h2>Menta</h2>
+<div class="card-body">
+<h1 class="card-title">Producto 1</h1>
+<p class="card-text"><strong>Código:</strong></p>
+<p class="card-text"><strong>Nombre:</strong></p>
+<p class="card-text"><strong>Stock:</strong></p>
+<p class="card-text"><strong>PVP:</strong></p>
+<p class="card-text"><strong>Proveedor:</strong></p>
+<p class="card-text"><strong>Gama:</strong></p>
+<img src="menta.jpg"
+
+<h2>Pala</h2>
+<div class="card-body">
+<h1 class="card-title">Producto 1</h1>
+<p class="card-text"><strong>Código:</strong></p>
+<p class="card-text"><strong>Nombre:</strong></p>
+<p class="card-text"><strong>Stock:</strong></p>
+<p class="card-text"><strong>PVP:</strong></p>
+<p class="card-text"><strong>Proveedor:</strong></p>
+<p class="card-text"><strong>Gama:</strong></p>
+<img src="pala.jpg"
+
+<h2>Rastrillo</h2>
+<div class="card-body">
+<h1 class="card-title">Producto 1</h1>
+<p class="card-text"><strong>Código:</strong></p>
+<p class="card-text"><strong>Nombre:</strong></p>
+<p class="card-text"><strong>Stock:</strong></p>
+<p class="card-text"><strong>PVP:</strong></p>
+<p class="card-text"><strong>Proveedor:</strong></p>
+<p class="card-text"><strong>Gama:</strong></p>
+<img src="rastrillo.jpg"
+
+<h2>Rosa</h2>
+<div class="card-body">
+<h1 class="card-title">Producto 1</h1>
+<p class="card-text"><strong>Código:</strong></p>
+<p class="card-text"><strong>Nombre:</strong></p>
+<p class="card-text"><strong>Stock:</strong></p>
+<p class="card-text"><strong>PVP:</strong></p>
+<p class="card-text"><strong>Proveedor:</strong></p>
+<p class="card-text"><strong>Gama:</strong></p>
+<img src="rosa.jpg"
+
+<h2>Sierrapoda</h2>
+<div class="card-body">
+<h1 class="card-title">Producto 1</h1>
+<p class="card-text"><strong>Código:</strong></p>
+<p class="card-text"><strong>Nombre:</strong></p>
+<p class="card-text"><strong>Stock:</strong></p>
+<p class="card-text"><strong>PVP:</strong></p>
+<p class="card-text"><strong>Proveedor:</strong></p>
+<p class="card-text"><strong>Gama:</strong></p>
+<img src="sierra poda.jpg"
+</body>
